@@ -19,7 +19,7 @@ function Product() {
       {/** Product Section */}
       <div>
         <div id="process">process</div>
-        <div id="works">How it works</div>
+        <div id="works">PRODUCTS</div>
         <div id="steps">A step by step guide to the home buying process.</div>
 
         <div>
