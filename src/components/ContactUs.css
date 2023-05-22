@@ -1,0 +1,135 @@
+.contactus {
+  position: relative;
+  width: 100%;
+  height: 800px;
+
+  background: #f0f0f0;
+}
+
+.contactus .Card {
+  position: absolute;
+  width: 917px;
+  left: 300px;
+  height: 580px;
+  top: 100px;
+
+  background: #ffffff;
+  box-shadow: 20px 44px 64px rgba(16, 71, 128, 0.13);
+  border-radius: 20px;
+}
+
+.card-head {
+  position: absolute;
+  width: 493px;
+  height: 80px;
+  /* left: 563px;
+top: 2448px; */
+}
+
+#head {
+  position: absolute;
+  width: 102px;
+  height: 22px;
+  left: calc(50% - 12px / 2 + 120px);
+  /* top: calc(50% - 22px/2 + 759px); */
+  top: 20px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #8dc640;
+}
+
+#touch {
+  position: absolute;
+  width: 493px;
+  height: 58px;
+  left: calc(50% - 12px / 2 + 20px);
+  top: 40px;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height, or 104% */
+
+  text-transform: capitalize;
+
+  color: #1e1e1e;
+}
+
+.card-body {
+  position: absolute;
+  width: 759px;
+  height: 527px;
+  /* left: 421px;
+top: 2553px; */
+}
+
+.card-body p {
+  position: absolute;
+  width: 724px;
+  height: 72px;
+  left: 89px;
+  top: 100px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 161% */
+
+  text-align: center;
+
+  color: #1e1e1e;
+}
+
+.row {
+  position: relative;
+  width: 759px;
+  height: 64px;
+  left: 91px;
+  top: 195px;
+}
+
+input {
+  position: relative;
+  width: 330px;
+  height: 54px;
+
+  background: #f2f2f2;
+  border-radius: 80px;
+  text-align: center;
+}
+
+textarea {
+    position: absolute;
+    width: 700px;
+    height: 141px;
+    left: 20px;
+    /* top: 54px; */
+    
+    background: #F2F2F2;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  button{
+    position: absolute;
+width: 183px;
+height: 54px;
+left: 400px;
+top: 506px;
+color: white;
+background: #0F2E59;
+box-shadow: 0px 24px 34px rgba(7, 122, 242, 0.13);
+border-radius: 80px;
+
+  }
