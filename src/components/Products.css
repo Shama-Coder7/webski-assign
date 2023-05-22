@@ -91,13 +91,13 @@
   color: #7c7c7c;
 }
 
-.row-image {
+.products .row-image {
   display: flex;
   justify-content: space-evenly;
 }
-.image-1,
-.image-2,
-.image-3 {
+.products .image-1,
+.products .image-2,
+.products .image-3 {
   position: relative;
   width: 350px;
   height: 430px;
@@ -108,13 +108,13 @@
   /* background: url("../images/image\ 10.png"); */
 }
 
-.image-1 {
+.products .image-1 {
   background: url('../images/Rectangle\ 39.png');
 
   /* identical to box height, or 107% */
 }
 
-.image-1-text {
+.products .image-1-text {
   padding-left: 10px;
   padding-top: 325px;
   font-family: 'Cormorant Garamond';
@@ -124,17 +124,17 @@
   /* line-height: 32px; */
 }
 
-.image-2 {
+.products .image-2 {
   background: url('../images/Rectangle\ 40.png');
 }
 
-.image-3 {
+.products .image-3 {
   background: url('../images/Rectangle\ 41.png');
 }
 
-.image-4,
-.image-5,
-.image-6 {
+.products .image-4,
+.products .image-5,
+.products .image-6 {
   position: relative;
   width: 350px;
   height: 430px;
@@ -143,14 +143,14 @@
   color: #ffffff;
 }
 
-.image-4 {
+.products .image-4 {
   background: url('../images/image\ 6.png');
 }
 
-.image-5 {
+.products .image-5 {
   background: url('../images/image\ 5.png');
 }
 
-.image-6 {
+.products .image-6 {
   background: url('../images/image\ 8.png');
 }
