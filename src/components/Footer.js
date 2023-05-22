@@ -6,12 +6,19 @@ import {
 } from 'react-icons/ai';
 import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 import './Footer.css';
-// import image4 from '../images/image 4.png';
+import image4 from '../images/image 1.png';
 function Footer() {
   return (
     <div className="footer">
-      <div className="img-logo">{/* <img src={image4} alt="logo"/> */}</div>
-      <div className='footer-links'>
+      <div className="footer-logo">
+        <div className="img-logo">
+          <img src={image4} alt="logo" />
+        </div>
+        <div>
+          <p>Copyright © 2023 Home Loan Advisors -<br/> All Rights Reserved.</p>
+        </div>
+      </div>
+      <div className="footer-links">
         <ul>
           <li>
             <FaLinkedinIn />
