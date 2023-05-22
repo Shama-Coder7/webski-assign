@@ -6,7 +6,7 @@ import { BsArrowRightSquare } from 'react-icons/bs';
 
 function Product() {
   return (
-    <div>
+    <div className="products>
       <div className="product-navbar">
         <Navbar />
         <div className="product-body">
